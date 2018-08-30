@@ -1,0 +1,13 @@
+sceneSetups:
+- path: Assets/Scenes/MainMenu.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/DrugBox.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/Scenes/DrugDetail.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Scenes/SelectQuest.unity
+  isLoaded: 0
+  isActive: 0

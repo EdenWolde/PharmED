@@ -1,0 +1,2 @@
+C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\PharmED.csproj;x86
