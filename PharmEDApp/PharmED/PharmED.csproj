@@ -366,7 +366,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{e09d2651-192a-4c39-a080-e0c423a0bf36}</Project>
+      <Project>{2b1388a2-113e-46bd-955f-707323edce74}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>

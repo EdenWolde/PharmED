@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/****Eden Woldeselassie
+     8/24/2018
+     C# Script 
+     GetDrugs Class
+     Used for getting list of drugs 
+     must be dynamic later on**********************************/
+
+using System.Collections;
 
 
 
@@ -9,6 +16,8 @@ public class GetDrugs {
     // Change this to come form an outside source
         public  ArrayList GetDrugListforGame()
         {
+
+        //Array List of Top 200 FDA approved drugs with the information that the student needs to know. 
         DrugsLists = new ArrayList() {
 
                                         new DrugDetail("Mirtazapine(PO)", "Remeron", "Alpha2 antagonist", "MDD","Drowsiness, weight gain, xerostomia, increased appetite, constipation",""),

@@ -1,0 +1,4 @@
+beclomethasone;Qvar;Inhaled corticosteroid (ICS);Asthma, COPD;oral candidiasis, hoarseness (dysphonia), sore throat;rinse mouth with water and spit to prevent Candida infection
+budesonide;Pulmicort, Pulmicort Flexhaler;Inhaled corticosteroid (ICS);Asthma, COPD;oral candidiasis, hoarseness (dysphonia), sore throat;rinse mouth with water and spit to prevent Candida infection
+fluticasone propionate;Flovent HFA, Flovent Diskus;Inhaled corticosteroid (ICS);Asthma, COPD;oral candidiasis, hoarseness (dysphonia), sore throat;rinse mouth with water and spit to prevent Candida infection
+fluticasone and salmeterol (inhalation);Advair Diskus, Advair HFA;Inhaled corticosteroid (ICS) and long-acting beta2 agonist (LABA);Asthma, COPD;oral candidiasis, hoarseness (dysphonia), sore throat;LABAs may increase the risk of asthma-related death as monotherapy,rinse mouth with water and spit to prevent Candida infection

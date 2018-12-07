@@ -1,12 +1,8 @@
 Metro
 PlayerPath?
-C:/Users/edenb/OneDrive/Project/PharmED/PharmEDApp
+C:/Users/edenb/OneDrive/Project/PharmED/Level1
 SceneListBegin?
-Assets/Scenes/Level1.unity
-Assets/Scenes/MainMenu.unity
-Assets/Scenes/DrugBox.unity
 Assets/Scenes/DrugDetail.unity
-Assets/Scenes/SelectQuest.unity
 SceneListEnd?
 7abde016883951c4ca4e7c44ce6adb2c Assembly-CSharp.dll:HoloToolkit.Unity.SceneLauncher
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.UX.BoundingBoxGizmoHandle
@@ -31,7 +27,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LG
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadGame
 5252dab092fdac4d4b5eec1e7253d568 Assembly-CSharp.dll:HoloToolkit.Unity.SolverConstantViewSize
 6b65f31824988366512541d7c532ee8b Assembly-CSharp.dll:HoloToolkit.Unity.SpatialMapping.ObjectSurfaceObserver
 6be96e34ec56d8306ef9c5afb1661e60 Assembly-CSharp.dll:HoloToolkit.Sharing.Utilities.ManualIpConfiguration
@@ -266,6 +262,7 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 b39fddbe4ede4fafe2e1641885144305 Assembly-CSharp.dll:HoloToolkit.Sharing.SharingWorldAnchorManager
+9d206e452e77f254c3527eb4edd4df3b Assembly-CSharp.dll:.DrugBoxDetail
 cb3299cc3a2d8ae01f30f501bb96d4cf Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.AttachToController
 6f104984604a6ec9b27767e5cbdae14c Assembly-CSharp.dll:.DisplayDependentObjectActivator
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.MRTKEditor
@@ -276,6 +273,7 @@ c0d71817ca38ee024fcd4c1a6430e744 Assembly-CSharp.dll:.DrugInfoClass
 86850bb803420472cf9bdf34ef5b7e0f Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.CustomInputSource
 066f3c01e7c10bfbdc9fc130998d1d40 Assembly-CSharp.dll:HoloToolkit.Sharing.Spawning.PrefabSpawnManager
 3653e647f40c0f295672219cc1e7ebff Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.SpriteButton
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TextBehaviour
 c4fd2ef7468c68e11d03e50c6e8b323d Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.AnimButton
 219487901c928246931c9d354ef2010b Assembly-CSharp.dll:HoloToolkit.UX.ToolTips.ToolTip
 36dc6c07bd87626bb2c77ad5640defe1 Assembly-CSharp.dll:HoloToolkit.Unity.UX.DistorterGravity
@@ -355,7 +353,6 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 67a5f2c97205d2e41a8ed7c7ce898f6e UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 00899b89e3f5c32399bd6d7e15cb69bc Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.AnimatedCursor
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadGame
 f7cf9e253f09e4ec8daa4fc98b6daae3 Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.KeyboardInputField
 af4ae9a3d9778026e545c5b641928c70 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.CameraMotionInfo
 e6857e57e5f774d089533f27a4a00016 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButtonIcon
@@ -444,6 +441,7 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 26dab8c3769b5c279169efdc2a5d2bd1 Assembly-CSharp.dll:UnityGLTF.GLTFComponent
 7a01dd6ff9e8a779842b24e9e12329f2 Assembly-CSharp.dll:HoloToolkit.Unity.UX.BoundingBoxRig
+e419ec0440c582f778be9479c1992c4e Assembly-CSharp.dll:.TxtSpchLogic
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LineBaseEditor
 b74d6034034deeffc1401e25ca9027a5 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButton
 bc79872c81f3cda9be1ec427f70f92aa Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -479,6 +477,3 @@ a924c90a95cf65003f662aa5e30abb6b Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 01e6f145049f3a676df6dc247eabf176 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-9d206e452e77f254c3527eb4edd4df3b Assembly-CSharp.dll:.DrugBoxDetail
-e419ec0440c582f778be9479c1992c4e Assembly-CSharp.dll:.TxtSpchLogic
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TextBehaviour

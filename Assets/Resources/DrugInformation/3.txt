@@ -1,0 +1,5 @@
+benazepril;Lotensin;Angiotensin-converting enzyme (ACE) inhibitor;HTN, chronic HF, CAD;cough, hyperkalemia, angioedema;fetal toxicity (CI in pregnancy)
+enalapril;Vasotec;Angiotensin-converting enzyme (ACE) inhibitor;HTN, chronic HF, CAD;cough, hyperkalemia, angioedema;fetal toxicity (CI in pregnancy)
+lisinopril;Prinivil,Zestril;Angiotensin-converting enzyme (ACE) inhibitor;HTN, chronic HF, CAD;cough, hyperkalemia, angioedema;fetal toxicity (CI in pregnancy)
+quinapril;Accupril;Angiotensin-converting enzyme (ACE) inhibitor;HTN, chronic HF, CAD;cough, hyperkalemia, angioedema;fetal toxicity (CI in pregnancy)
+ramipril;Altace;Angiotensin-converting enzyme (ACE) inhibitor;HTN, chronic HF, CAD;cough, hyperkalemia, angioedema;fetal toxicity (CI in pregnancy)

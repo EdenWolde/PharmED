@@ -1,0 +1,5 @@
+penicillin V potassium,penicillin G potassium (IV);;Beta-lactam antibiotic (natural penicillin);Pharyngitis, SSTI;diarrhea, hypersensitivity reactions;
+amoxicillin;;Beta-lactam antibiotic (aminopenicillin);Otitis media, pharyngitis Activity against: Streptococcus pneumoniae, Streptococcus pyogenes;diarrhea, hypersensitivity reactions;
+ampicillin;;Beta-lactam antibiotic (aminopenicillin);Intrapartum group B Streptococcus prophylaxis Activity against: Streptococcus pneumoniae, Streptococcus pyogenes, Listeria monocytogenes;diarrhea, hypersensitivity reactions;
+amoxicillin and clavulanate;Augmentin, Augmentin XR;Beta-lactam antibiotic (aminopenicillin) and beta-lactamase inhibitor;Otitis media, bacterial sinusitis Activity against: Streptococcus pneumoniae, Haemophilus influenzae;diarrhea, hypersensitivity reactions;various ratios of amoxicillin and clavulanate available
+ampicillin and sulbactam (IV);Unasyn;Beta-lactam antibiotic (aminopenicillin);DFI, IAI Activity against: MSSA, Bacteroides species;diarrhea, hypersensitivity reactions

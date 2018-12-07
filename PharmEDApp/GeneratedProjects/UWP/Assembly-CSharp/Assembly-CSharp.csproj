@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{e09d2651-192a-4c39-a080-e0c423a0bf36}</ProjectGuid>
+    <ProjectGuid>{2b1388a2-113e-46bd-955f-707323edce74}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -1906,9 +1906,6 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Script\Interaction.cs">
       <Link>Script\Interaction.cs</Link>
-    </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\Script\LG.cs">
-      <Link>Script\LG.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Script\ListController.cs">
       <Link>Script\ListController.cs</Link>

@@ -1,0 +1,5 @@
+dutasteride;Avodart;5 alpha-reductase inhibitor;BPH;decreased libido, impotence, oropharyngeal irritation (dutasteride only);women who are pregnant or of child-bearing age should not touch; swallow whole (dutasteride only)
+finasteride;Proscar, Propecia;5 alpha-reductase inhibitor;BPH, male pattern baldness;decreased libido, impotence, oropharyngeal irritation (dutasteride only);women who are pregnant or of child-bearing age should not touch; swallow whole (dutasteride only)
+doxazosin;Cardura;Alpha1 blocker;BPH, HTN;dizziness, orthostatic hypotension,priapism (rare), intraoperative floppy iris syndrome (rare)
+terazosin;Hytrin;Alpha1 blocker;BPH, HTN;dizziness, orthostatic hypotension, priapism (rare), intraoperative floppy iris syndrome (rare)
+tamsulosin;Flomax;Alpha1a blocker;BPH;dizziness, orthostatic hypotension, priapism (rare), intraoperative floppy iris syndrome (rare);take 30 min after the same meal daily

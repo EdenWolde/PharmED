@@ -1,0 +1,4 @@
+brimonidine;Alphagan P;Alpha2 agonist;Elevated IOP;ocular hypersensitivity, drowsiness, allergic conjunctivitis, conjunctival hyperemia, ocular pruritus;CI with MAOI therapy
+dorzolamide;Trusopt;Carbonic anhydrase inhibitor;Elevated IOP;ocular hypersensitivity, burning, and stinging, blurred vision, dysgeusia
+cyclosporine;Restasis;Calcineurin inhibitor;Keratoconjunctivitis sicca;ocular burning, stinging, and pruritus, foreign body sensation, hypersensitivity reaction
+timolol;Betimol,Timoptic,Timoptic XE, Istalol;Non-selective beta-blocker;Elevated IO;ocular stinging and burning

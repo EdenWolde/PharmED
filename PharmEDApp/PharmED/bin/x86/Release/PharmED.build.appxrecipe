@@ -431,18 +431,6 @@
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level1">
-      <PackagePath>Data\level1</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level2">
-      <PackagePath>Data\level2</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level3">
-      <PackagePath>Data\level3</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level4">
-      <PackagePath>Data\level4</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
@@ -455,47 +443,14 @@
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets1.assets">
-      <PackagePath>Data\sharedassets1.assets</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets2.assets">
-      <PackagePath>Data\sharedassets2.assets</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets3.assets">
-      <PackagePath>Data\sharedassets3.assets</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets4.assets">
-      <PackagePath>Data\sharedassets4.assets</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level1.resS">
-      <PackagePath>Data\level1.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level2.resS">
-      <PackagePath>Data\level2.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level3.resS">
-      <PackagePath>Data\level3.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\level4.resS">
-      <PackagePath>Data\level4.resS</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets1.assets.resS">
-      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets2.assets.resS">
-      <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\sharedassets4.assets.resS">
-      <PackagePath>Data\sharedassets4.assets.resS</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\edenb\OneDrive\Project\PharmED\PharmEDApp\PharmED\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>

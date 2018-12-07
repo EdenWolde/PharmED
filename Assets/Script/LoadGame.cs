@@ -1,107 +1,51 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿/*************************          PharmEd 
+ *                              Comprhensive Project
+ *                                  9/04/2018
+ *                                  Description
+ *               This class is named "LoadGame". "LoadGame" inherits from a base class named "Monobehaviour". 
+ *               There are some purposes to this class. First, it is used to initialize the game scene. This is done under the start method.
+ *               Second, it is used to collect objects that the player is gazing at. This can be found in the update method. Third, the drugs or
+ *               pills on the scene are initialized with attributes (information that the player needs to know about). 
+ *                                  Modification
+ *               Need to make the input of drug lists dynamic by integrating database or a txt.file
+ *               
+ *************************/               
+
+
+
 using UnityEngine;
-using System.IO;
-using UnityEngine.UI;
 
+public class LoadGame : MonoBehaviour {
 
-public class LoadGame : MonoBehaviour
-{
-    public static bool DrugFound = false, Question_Answered = false;                    //Status checks
-    public static string DrugOnQuest;                                                   //Drug to be found
-    public static string AnswerQuestion;
+    public static GameObject ObjectInFocus = null;                                                             //Global variable to store what object the user is looking at
 
-
-
-
-    void Start()
+    // Use this for initialization. This method is called at the very begining of the runtime. 
+    void Start ()
     {
-
-        PlayGame Game = new PlayGame();
-        Game.Start();
-
-    }
-
-    public class PlayGame : GetDrugs
-    {
-        public static new ArrayList DrugsLists = new ArrayList();                       //Lists of drugs and thier definition
-        public int LEVEL, DrugNumber = 0;
-        public static List<GameObject> Drugs = new List<GameObject>();                  //Lists of gameobject in the scene
-        public Text title, score, lvl, quest;
-        public FileStream Fstream = new FileStream("C:\\Users\\edenb\\Documents\\PharmED\\GameStatus.txt", FileMode.OpenOrCreate);
+        Game Game = new Game();
+        Game.SetGame();	
+	}//end Start
+	
+	// Update is called once per frame
+	void Update () {
 
 
-        // Use this for initialization
+        Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);                       /* A ray being defined with start position and direction. 
+                                                                                                                   This ray shoots out of the hololens and to the object*/
+        RaycastHit RayCastInfo;                                                                                          // a variable to store what the ray hit
+        Physics.Raycast(ray, out RayCastInfo);
 
-        public void Start()
+        if (Physics.Raycast(ray, out RayCastInfo))                                                                    // Storing the game object that is being hit
         {
+            LoadGame.ObjectInFocus = RayCastInfo.transform.gameObject;
+            
 
-            AssignDrugDetail();
-            AssignLevelScore();
-            StartQuest();
+            /****************Feature Modification to implement to display hint based on difficulity level ************************/
 
+            // DisplayHint();                                                                                                               
         }
-
-        // Update is called once per frame
-        public void AssignDrugDetail()
-        {
-
-            int i = 0;
-            DrugsLists = GetDrugListforGame();
-            foreach (GameObject Dgs in GameObject.FindGameObjectsWithTag("Drug"))
-                Drugs.Add(Dgs);                                                                                 //Modify with spatial mapping later on 
-            foreach (GameObject Dgs in Drugs)
-            {
-
-                DrugDetail Drug = (DrugDetail)DrugsLists[i];
-
-                Dgs.GetComponent<DrugInfoClass>().genericName = Drug.genericName;
-                Dgs.GetComponent<DrugInfoClass>().brandName = Drug.brandName;
-                Dgs.GetComponent<DrugInfoClass>().pillCategory = Drug.pillCategory;
-                Dgs.GetComponent<DrugInfoClass>().pillIndication = Drug.pillIndication;
-                Dgs.GetComponent<DrugInfoClass>().pillOtherNotes = Drug.pillIndication;
-                Dgs.GetComponent<DrugInfoClass>().pillSideEffects = Drug.pillSideEffects;
-                Dgs.GetComponent<Renderer>().material.color = new Color(1f, 1f * i, (255 - (i * 50)) / 255f);
-                i++;
-
-            }
-
-        }//AssignDrugDetail
-        public void AssignLevelScore()
-        {
-            //reading the player status from a file and assigning 
-
-            StreamReader sr = new StreamReader(Fstream);
-
-            LEVEL = int.Parse(sr.ReadLine());
-            lvl = GameObject.Find("txtLvl").GetComponent<Text>();
-            score = GameObject.Find("txtScore").GetComponent<Text>();
-            title = GameObject.Find("txtTitle").GetComponent<Text>();
-            lvl.text = ("Level: " + LEVEL.ToString());
-            score.text = ("Score: " + (sr.ReadLine())).ToString();
-            title.text = "Title: " + sr.ReadLine();
-            DrugNumber = int.Parse(sr.ReadLine());
-            sr.Dispose();
-        } // AssignLevelScore
-        public void StartQuest()
-        {
-
-            quest = GameObject.Find("txtQuest").GetComponent<Text>();
-            DrugOnQuest = ((DrugDetail)DrugsLists[0]).genericName;
-            quest.text = ("Find " + ((DrugDetail)DrugsLists[0]).genericName).ToString();
-            DisableMultipleChoices();
-        }
-        public static void DisableMultipleChoices()
-        {
-            GameObject.Find("txtA").GetComponent<Text>().enabled = false;
-            GameObject.Find("txtB").GetComponent<Text>().enabled = false;
-            GameObject.Find("txtC").GetComponent<Text>().enabled = false;
-        }
-        public static void EnableMultipleChoices()
-        {
-            GameObject.Find("txtA").GetComponent<Text>().enabled = true;
-            GameObject.Find("txtB").GetComponent<Text>().enabled = true;
-            GameObject.Find("txtC").GetComponent<Text>().enabled = true;
-        }
-    }//Play game
-}//LG
+        else
+            return;
+    }//end update
+  
+}

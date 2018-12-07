@@ -214,7 +214,7 @@ Prefab:
     - target: {fileID: 224255374952437360, guid: e314897ae988ab34f9f175d7d8032c28,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 6.6
       objectReference: {fileID: 0}
     - target: {fileID: 224255374952437360, guid: e314897ae988ab34f9f175d7d8032c28,
         type: 2}
@@ -293,7 +293,7 @@ Prefab:
     - target: {fileID: 114280539149412240, guid: e314897ae988ab34f9f175d7d8032c28,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: SelectQuest
+      value: Level
       objectReference: {fileID: 0}
     - target: {fileID: 114280539149412240, guid: e314897ae988ab34f9f175d7d8032c28,
         type: 2}
@@ -607,7 +607,7 @@ Prefab:
     - target: {fileID: 224259867473527756, guid: bfc40cdfdab48314f8bede1a8ed0be35,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -121
+      value: -109.7
       objectReference: {fileID: 0}
     - target: {fileID: 224259867473527756, guid: bfc40cdfdab48314f8bede1a8ed0be35,
         type: 2}
@@ -1837,7 +1837,7 @@ Prefab:
     - target: {fileID: 224255374952437360, guid: e314897ae988ab34f9f175d7d8032c28,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -55
+      value: -47.1
       objectReference: {fileID: 0}
     - target: {fileID: 224255374952437360, guid: e314897ae988ab34f9f175d7d8032c28,
         type: 2}

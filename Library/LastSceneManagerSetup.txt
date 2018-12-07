@@ -6,11 +6,8 @@ sceneSetups:
   isLoaded: 0
   isActive: 0
 - path: Assets/Scenes/DrugDetail.unity
-  isLoaded: 0
-  isActive: 0
+  isLoaded: 1
+  isActive: 1
 - path: Assets/Scenes/SelectQuest.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Scenes/Level1.unity
-  isLoaded: 1
-  isActive: 1

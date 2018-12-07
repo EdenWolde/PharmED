@@ -12,6 +12,7 @@ public class Interaction : MonoBehaviour {
     public static TextToSpeech txtSpeech;
     public string SpeakText;
     public static string msg;
+    
     Text stxt;
     // Use this for initialization
     void Start()
@@ -22,6 +23,8 @@ public class Interaction : MonoBehaviour {
         gestureRecognizer.SetRecognizableGestures(GestureSettings.Tap);
         gestureRecognizer.TappedEvent += GestureRecognizer_TappedEvent;
         gestureRecognizer.StartCapturingGestures();
+
+
         txtSpeech = GetComponent<TextToSpeech>();
         msg = string.Format(SpeakText, txtSpeech.Voice.ToString());
         txtSpeech.StartSpeaking(msg);

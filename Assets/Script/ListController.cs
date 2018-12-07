@@ -8,7 +8,7 @@ public class ListController : MonoBehaviour {
     public string[] Keywords = new string[] { "Brimonidine", "Dorzolamide", "Cyclosporine", "Timolol", "Permethrin", "Dutasteride" ,
                                                "Finasteride","Doxazosin","Terazosin","Tamsulosin","Benazepril","Enalapril","Lisinopril",
                                                "Quinapril","Ramipril","Beclomethason","Budesonide","Fluticasone propionate","Fluticason and Salmeterol",
-                                               "Budesonide and moontelukast","Penicillin five potassium", "Amoxicillin", "Ampicillin"};
+                                               "Budesonide and moontelukast","Penicillin five potassium", "Amoxicillin", "Ampicillin" };
     public ConfidenceLevel Conf = ConfidenceLevel.Medium;
     public float speed = 1;
 
@@ -112,6 +112,6 @@ public class ListController : MonoBehaviour {
 
     private void KWR_OnPhraseRecognized(PhraseRecognizedEventArgs args)
     {
-        Debug.Log(args.text);
+        Interaction.txtSpeech.StartSpeaking(args.ToString());
     }
 }
